@@ -4,7 +4,6 @@
 module.exports = {
   // All imported modules in your tests should be mocked automatically
   // automock: false,
-
   // Stop running tests after `n` failures
   // bail: 0,
 
@@ -91,7 +90,7 @@ module.exports = {
   // notifyMode: "failure-change",
 
   // A preset that is used as a base for Jest's configuration
-  preset: '@testing-library/react-native',
+  preset: "@testing-library/react-native",
 
   // Run tests from one or more projects
   // projects: undefined,
@@ -126,9 +125,7 @@ module.exports = {
   // setupFiles: [],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
-  setupFilesAfterEnv: [
-    "@testing-library/jest-native/extend-expect"
-  ],
+  setupFilesAfterEnv: ["@testing-library/jest-native/extend-expect"],
 
   // A list of paths to snapshot serializer modules Jest should use for snapshot testing
   // snapshotSerializers: [],
